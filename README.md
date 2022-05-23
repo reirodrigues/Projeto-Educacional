@@ -2,4 +2,4 @@
 Landing Page - Educacional
 
 ## Link Figma
-https://www.figma.com/file/AVu0uoMeBiggUF8Up8JgAP/online-education-LANDING-PAGE-design-(Community)?node-id=1%3A2
+https://www.figma.com/file/9keZOd4BmN6uI9z90aKFCY/Sign-Up-Page-(Community)?node-id=5%3A2
