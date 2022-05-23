@@ -162,6 +162,11 @@ div.custom p {
   height: 26px;
 }
 
+.end .orSignUp {
+  display: flex;
+  left: 250px;
+}
+
 div.icons {
   display: flex;
   align-items: center;
