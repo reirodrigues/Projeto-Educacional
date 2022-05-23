@@ -27,7 +27,11 @@ body {
 
   margin: 70px;
   border-radius: 50px;
-  background: linear-gradient(145.36deg, rgba(244, 244, 244, 0.4) -4.23%, rgba(244, 244, 244, 0.2) 102.58%);
+  background: linear-gradient(
+    145.36deg,
+    rgba(244, 244, 244, 0.4) -4.23%,
+    rgba(244, 244, 244, 0.2) 102.58%
+  );
   backdrop-filter: blur(20px);
 }
 
@@ -35,7 +39,7 @@ body {
   text-align: center;
 }
 
-.home h1{
+.home h1 {
   width: 310px;
   height: 80px;
   left: 265px;
@@ -44,7 +48,7 @@ body {
   font-size: 52px;
   line-height: 78px;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .home p {
@@ -56,7 +60,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #ffffff;
 
   margin-bottom: 30px;
 }
@@ -69,7 +73,6 @@ form {
   width: 100%;
   max-width: 350px;
 }
-
 
 div.input-sigle {
   width: 100%;
@@ -94,19 +97,23 @@ div.input-sigle input {
   border: 0;
   border-bottom: 2px solid rgb(200, 200, 200);
   outline: 0;
-  font-size: 16px;  
+  font-size: 16px;
 
-  background: linear-gradient(145.36deg, rgba(244, 244, 244, 0.4) -4.23%, rgba(244, 244, 244, 0.2) 102.58%);
+  background: linear-gradient(
+    145.36deg,
+    rgba(244, 244, 244, 0.4) -4.23%,
+    rgba(244, 244, 244, 0.2) 102.58%
+  );
   backdrop-filter: blur(20px);
 }
 
 div.input-sigle input:focus,
-div.input-sigle input:valid{
+div.input-sigle input:valid {
   border-bottom: 2px solid cornflowerblue;
 }
 
 div.input-sigle input:focus ~ label,
-div.input-sigle input:valid ~ label{
+div.input-sigle input:valid ~ label {
   transform: translateY(-34px);
   color: cornflowerblue;
 }
@@ -125,7 +132,7 @@ div.input-sigle input:valid ~ label{
   border: none;
 }
 
-.button a{
+.button a {
   color: #696969;
   width: 62px;
   height: 25px;
@@ -161,7 +168,7 @@ div.icons {
   justify-content: center;
 }
 
-@media(max-width: 700px) {
+@media (max-width: 700px) {
   body {
     background-image: none;
     background-color: white;
@@ -169,7 +176,7 @@ div.icons {
   .home h1,
   .home p,
   div.custom p,
-  div.input-sigle input{
+  div.input-sigle input {
     color: black;
   }
 }
