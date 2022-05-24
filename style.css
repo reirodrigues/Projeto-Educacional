@@ -141,6 +141,11 @@ div.input-sigle input:valid ~ label {
   line-height: 24px;
 }
 
+.button:hover {
+  background-color: white;
+  transition: background 200ms;
+}
+
 div.custom {
   display: flex;
   align-items: center;
