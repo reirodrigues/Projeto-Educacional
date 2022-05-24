@@ -17,15 +17,14 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+ 
 
   width: 600px;
-  height: 750px;
+  height: 620px;
   left: 62px;
   top: 64px;
 
-  margin: 70px;
+  margin: 80px;
   border-radius: 50px;
   background: linear-gradient(
     145.36deg,
@@ -47,7 +46,6 @@ body {
   font-weight: 700;
   font-size: 52px;
   line-height: 78px;
-
   color: #ffffff;
 }
 
